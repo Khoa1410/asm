@@ -1,0 +1,7 @@
+print("phuong trinh duong thang di co vector phap tuyen (a,b) va di qua diem A (x0,y0)")
+a = float(input("nhap a : "))
+b = float(input("nhap b : "))
+x0 = float(input("nhap x0 : "))
+y0 = float(input("nhap y0 : "))
+c = -(a*x0)-(b*y0)
+print("phuong trinh duong thang : " + str(a) + "x" + " + (" +str(b) + "y" + ") + (" + str(c) + ")")
